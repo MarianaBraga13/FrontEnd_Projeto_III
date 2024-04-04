@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+
+nav {
+    color: #fff;
+}
+
+/* Global styles */
+body {
+    background-image: url('img/flag21.jpg');
+    background-repeat: no-repeat;
+    background-position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    filter: blur(0px);
+    text-align: center;
+    background-color: transparent;
+    color: black(24, 24, 238);
+    padding: 50px;
+    font-family: Ubuntu;
+    opacity: 90%;
+    position: relative;
+}
+
+header {
+    background-color: transparent;
+    color: black(24, 24, 238);
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    color: #fff;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    color: #fff;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#banner img {
+    width: 200px;
+    height: auto;
+}
+
+#content {
+    padding: 20px;
+}
+
+#subscription,
+#passwordRecovery,
+#englishLevelAssessment {
+    background-color: none;
+    padding: 20px;
+    margin: 20px;
+}
+
+#centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h5{
+    ruby-position: after;
+    color:#fff;
+}
